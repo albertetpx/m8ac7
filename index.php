@@ -18,7 +18,7 @@
             <div id="ground"></div>
         </div>
         <div id="text">
-            <h1>HELLO WoRLD</h1>
+            <h1>HELLO W-RLD</h1>
             <h2>
                 <?php
                  echo apache_get_version()
