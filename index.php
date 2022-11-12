@@ -20,8 +20,8 @@
         <div id="text">
             <h1>HELLO W*RLD</h1>
             <h2> PHP: <?php echo phpversion()?> </h2>
-            <h2> xDebug: <?php echo ini_get(xdebug.remote_enable)?> </h2>
-            <h2> xDebug: <?php echo ini_get(xdebug.remote_port)?> </h2>
+            <h2> xDebug: <?php echo ini_get('xdebug.remote_enable')?> </h2>
+            <h2> xDebug: <?php echo ini_get('xdebug.remote_port')?> </h2>
         </div>
     </div>
 </body>
