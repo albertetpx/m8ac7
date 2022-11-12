@@ -18,11 +18,11 @@
             <div id="ground"></div>
         </div>
         <div id="text">
-            <h1>HELLO W*RLD</h1>
+            <h1>HELLO WORLD</h1>
             <h2> PHP: <?php echo phpversion()?> </h2>
             <?php 
             if (ini_get('xdebug.remote_enable') != ''){
-                echo '<h2> xDebug on port:'.ini_get('xdebug.remote_port').'</h2>';
+                echo '<h2> xDebug on port: '.ini_get('xdebug.remote_port').'</h2>';
             }
             ?>
         </div>

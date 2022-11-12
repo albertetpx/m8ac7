@@ -128,7 +128,7 @@ h2 {
 	font-family: "Yellowtail", cursive;
 	font-weight: 100;
 	font-size: 3em;
-	transform: translatey(0px) rotatez(0deg);
+	transform: translatey(10px) rotatez(0deg);
 	text-shadow: 0 0 3px magenta, 0 0 7px magenta, 0 0 15px black, 0 0 15px black;
 	/* animation: hover 5s ease-in-out infinite;*/
 }
