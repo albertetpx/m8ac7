@@ -20,9 +20,7 @@
         <div id="text">
             <h1>HELLO W*RLD</h1>
             <h2>
-                <?php
-                 echo apache_get_version()
-                 ?>
+                PHP: <?php echo phpversion()?>
             </h2>
         </div>
     </div>
