@@ -118,7 +118,7 @@ h1 {
 		cornflowerblue 100%
 	);
 	background-size: contain;
-	-webkit-background-clip: text;
+	/* -webkit-background-clip: text; */
 	-webkit-text-stroke: 1px silver;
 	filter: drop-shadow(5px 5px 1px black) drop-shadow(1px 1px 1px magenta);
 	animation: bg-shift 5s ease-in-out infinite alternate;
