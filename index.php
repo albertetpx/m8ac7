@@ -21,7 +21,7 @@
             <h1>HELLO W*RLD</h1>
             <h2> PHP: <?php echo phpversion()?> </h2>
             <?php 
-            if (ini_get('xdebug.remote_port') != ''){
+            if (ini_get('xdebug.remote_enable') != ''){
                 echo '<h2> xDebug on port:'.ini_get('xdebug.remote_port').'</h2>';
             }
             ?>
